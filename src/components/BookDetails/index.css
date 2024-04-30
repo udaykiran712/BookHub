@@ -1,0 +1,165 @@
+.main-container {
+  background-color: #f5f7fa; /*#F5F7FA*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+.bookIdDetailsContainer {
+  background-color: #ffffff;
+  min-height: 90vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .bookIdDetailsContainer {
+    width: 95%;
+  }
+}
+.bookDetails-section1 {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .bookDetails-section1 {
+    flex-direction: column;
+  }
+}
+.bookDetails-section2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.bookCoverPic {
+  width: 235px;
+  height: 274px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.thatBookDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media (max-width: 768px) {
+  .thatBookDetails {
+    align-items: center;
+  }
+}
+.thatBookTitle {
+  color: #334155;
+  font-family: 'Inter';
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 16px;
+}
+@media (max-width: 768px) {
+  .thatBookTitle {
+    font-size: 24px;
+  }
+}
+.thatBookAuthor {
+  color: #475569;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Inter';
+  line-height: 16px;
+}
+@media (max-width: 768px) {
+  .thatBookAuthor {
+    font-size: 16px;
+  }
+}
+.eachBookRatingContainer {
+  display: flex;
+  align-items: center;
+  line-height: 16px;
+}
+.thatBookRating {
+  color: #475569;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Inter';
+}
+@media (max-width: 768px) {
+  .thatBookRating {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+.ratingStarImage {
+  color: #fbbf24;
+  margin: 0px 15px;
+}
+.thatBookStatusTitle {
+  color: #475569;
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 16px;
+}
+@media (max-width: 768px) {
+  .thatBookStatusTitle {
+    font-size: 16px;
+  }
+}
+.thatBookReadStatus {
+  color: #0284c7;
+}
+.hr-line {
+  background-color: #94a3b8;
+  width: 100%;
+  margin: 25px 0px;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .hr-line {
+    margin: 15px 0px;
+  }
+}
+.heading {
+  color: #334155;
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 600;
+  line-height: 16px;
+}
+.description {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 16px;
+}
+/*API FAILURE*/
+.failureView-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.failureView-title {
+  color: #475569;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: 'Inter';
+}
+
+.tryAgainBtn {
+  background-color: #0284c7;
+  color: #ffffff;
+  width: 112px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 400;
+}

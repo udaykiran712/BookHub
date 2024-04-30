@@ -1,0 +1,135 @@
+.loginPage {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .loginPage {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.lg-loginImagePage {
+  width: 40%;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  .lg-loginImagePage {
+    display: none;
+  }
+}
+.sm-loginImagePage {
+  width: 216px;
+  height: 216px;
+}
+@media (min-width: 768px) {
+  .sm-loginImagePage {
+    display: none;
+  }
+}
+.websiteLogoContainer {
+  display: flex;
+  text-decoration: none;
+}
+.websiteName {
+  font-family: 'Almendra SC';
+  color: #0284c7;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+.bookHub {
+  width: 54.999515533447266px;
+  height: 47.99907684326172px;
+}
+.loginPage-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background-color: #f5f7fa;
+}
+@media (max-width: 768px) {
+  .loginPage-section2 {
+    width: 100%;
+    background-color: transparent;
+    height: 40vh;
+  }
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  width: 499px;
+  height: 484px;
+}
+@media (max-width: 768px) {
+  .login-form-container {
+    height: 300px;
+    width: 216px;
+  }
+}
+.inputFieldContainer {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+@media (max-width: 768px) {
+  .inputFieldContainer {
+    width: 216px;
+  }
+}
+.labelName {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+  margin: 10px 0px;
+  color: #5a7184;
+}
+.flowControl {
+  width: 360px;
+  height: 56px;
+  top: 34px;
+  border-radius: 6px;
+  border: 1px solid #bdd4e0;
+  outline: none;
+  font-size: 16px;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .flowControl {
+    width: 216px;
+  }
+}
+.loginBtn {
+  background-color: #0284c7;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 360px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .loginBtn {
+    width: 216px;
+  }
+}
+.errorMsg {
+  color: #ef4444;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 12px;
+}

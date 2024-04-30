@@ -1,0 +1,61 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 10px 50px 0px 50px;
+}
+.navbarOptions-container {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .navbarOptions-container {
+    display: none;
+  }
+}
+.nav-option {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter';
+  margin-right: 10px;
+  cursor: pointer;
+}
+.isActive {
+  color: #0284c7;
+}
+.logoutBtn {
+  width: 73px;
+  height: 32px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
+.link:visited {
+  color: inherit;
+}
+.hamburger {
+  width: 24px;
+  height: 24px;
+  color: #475569;
+}
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+.slideDownContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 15px;
+}
+.closeOption {
+  margin: 0px 15px;
+}

@@ -1,0 +1,49 @@
+.bookContainer {
+  display: flex;
+  width: 250px;
+  margin: 10px;
+}
+.coverPic {
+  width: 133px;
+  height: 175px;
+  border-radius: 8px;
+  margin-right: 10px;
+} /* 
+.bookDetailsContainer {
+  display: flex;
+  flex-direction: column;
+}   */
+.bookName {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+}
+.authorName {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+}
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+.rating {
+  color: #475569;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 500;
+}
+.ratingStar {
+  color: gold;
+}
+.statusTitle {
+  color: #475569;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Inter';
+}
+.readStatus {
+  color: #0284c7;
+}

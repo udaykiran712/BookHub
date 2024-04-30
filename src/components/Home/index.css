@@ -1,0 +1,123 @@
+
+.HomePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.homeHeading {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: 'Inter';
+}
+.homeDescription {
+  color: #475569;
+  font-weight: 500;
+  font-family: 'Inter';
+  font-size: 20px;
+  line-height: 32px;
+}
+@media (min-width: 1000px) {
+  .homeDescription {
+    width: 1000px;
+    height: 64px;
+  }
+}
+.homeContainer {
+  background-color: #f5f7fa;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.topRatedBooks {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  align-self: center;
+  width: 100%;
+}
+.topRatedBooks-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topRated-heading {
+  color: #1e293b;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 24px;
+  width: 195px;
+  height: 32px;
+}
+.sm-FindBooksButton {
+  width: 104px;
+  height: 36px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  .sm-FindBooksButton {
+    display: none;
+  }
+}
+.FindBooksButton {
+  width: 104px;
+  height: 36px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .FindBooksButton {
+    display: none;
+  }
+}
+
+.topRatedUnorderedList {
+  width: 100%;
+  max-width: 1100px;
+  margin-top: 10px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(149, 140, 140);
+}
+.topRatedCoverPic {
+  width: 100%;
+}
+.topRatedBook-title {
+  color: #334155;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Inter';
+  text-align: center;
+}
+.topRatedBookAuthorName {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+  line-height: 16px;
+}
+.contactUs {
+  color: #3d3c3c;
+  font-family: 'HK Grotesk';
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 16px;
+}
