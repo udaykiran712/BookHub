@@ -11,21 +11,6 @@
 ```
 
 ```text
-  username: advika
-  password: world@5
-```
-
-```text
-  username: binita
-  password: modest*6
-```
-
-```text
-  username: chetan
-  password: vigor$life
-``
-
-```text
  username: rahul
  password: rahul@2021
 ``
